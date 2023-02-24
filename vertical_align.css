@@ -1,0 +1,6 @@
+.vertical_align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* opcional, establece la altura del contenedor como el 100% de la altura de la ventana */
+}

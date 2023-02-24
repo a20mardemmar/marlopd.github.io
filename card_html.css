@@ -1,0 +1,20 @@
+.card_html {
+  background-color: lightsalmon;
+  color: black;
+  border: 6px solid rgba(173, 216, 230, 0.7);
+  border-radius: 20px;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 0 0 rgba(255, 192, 203, 0.7);
+}
+
+.card_html:hover {
+  box-shadow: 0 0 10px 0 rgba(255, 192, 203, 0.7), 0 0 20px 0 rgba(173, 216, 230, 0.7);
+  border: 6px solid rgba(255, 192, 203, 0.7);
+}
